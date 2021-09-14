@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="rgb(62, 107, 230)" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid" >
+        <div class="row">
+            <div class="col-md-7 col-xs-12 col-sm-6">
+                <div class="container-1" id="container-1">
+                    <ul class="circles">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <div class="item-1 col-md-12 col-xs-12 col-sm-6">
+                        <h3>
+                            Hola<br>Soy <b>David Orozco</b>
+                        </h3>
+                        <p>Diseñador y Desarrollador de páginas web</p>
+                        <div class="botones">
+                            <button id="contact">Contactame</button>
+                            <a href="#content-main"><button>Portafolio</button></a>
+                            
+                        </div>
+        
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-md-5 col-xs-12 col-sm-6" id="subir">
+                <div class="item-2 col-md-12" id="contenedor-imagen">
+                    <div class="img" id="blanco">
+                        <div class="circulo">
+                            <img src="img/Design 1 (1).png" alt="">
+                        </div>
+                        
+                    </div>
+                    <div class="skills">
+                        <img src="img/html-5.svg" alt="">
+                        <img src="img/css-3.svg" alt="">
+                        <img src="img/sass.svg" alt="">
+                        <img src="img/js-file.svg" alt="">
+                        <img src="img/wordpress-logo.svg" alt="">
+                        <img src="img/website-content.svg" alt="">
+                    </div>
+                   
+                   
+                </div>
+            </div>
+        </div>
+        <form id="formulario" class="form" method="POST" action="main.php">
+            <div class="boton">
+                <div class="space"></div>
+                <a><img src="img/cancel.svg" alt="" class="cancel" id="exit"></a>
+            </div>
+            
+            <div class="header-form">
+                <div class="title">
+                    <h2>Contactame</h2>
+                </div>
+                
+               <img src="img/Saly-10.png"></img>
+            </div>
+            <div class="content">
+                <input type="text" name="nombre" class="input" placeholder="Nombre">
+                <hr>
+            
+                <input type="text" name="apellido" class="input" placeholder="Apellido"><hr>
+                <input type="email" name="correo" class="input" placeholder="Correo"><hr>
+                <input class="boton-1" type="submit">
+    
+            </div>
+    
+         </form>
+        
+
+    </div>
+    <!--Segunda página-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 col-xs-12 col-sm-12">
+                <div class="content-main" id="content-main">
+                    <div class="left">
+                        <img src="img/Saly-13.png" alt="" srcset="" id="animate-svg">
+                    </div>
+                    <div class="right">
+                        <div class="title1" id="title-1">
+                            <h2><b>Portafolio</b></h2>
+                        </div>
+                        <div class="accordion">
+                            <button type="button" class="accordion-button1"><h3>Wordpress</h3></button>
+                                <div class="accordion-content">
+                                    <a href="https://ruizroofingtx.com"><img src="img/ruizcap.png" alt=""></a>
+                                    <a href="https://www.elbiyuyo.com/comida/"><img src="img/comelona.png" alt=""></a>
+                                    <a href="https://lopezdaughterspainting.com/"><img src="img/lopez.png" alt=""style="object-fit:fill;"></a>
+                                    <a href="https://bearpaintingca.com/"><img src="img/oso-p9xhvfhjfiwn9wl81f27jw0zzqno69usjgqhz552dg.png" alt=""></a>
+                                    <a href="https://thoorconstruction.com"><img src="img/THOOR-PNG.png" alt=""></a>
+                                    <a href="https://aguilarautospa.com/"><img src="img/aguilar.jpg" alt=""></a>
+                                </div>
+                                
+                        </div>
+                        <div class="accordion">
+                            <button type="button" class="accordion-button1"><h3>HTMl5 & CSS3</h3></button>
+                                <div class="accordion-content">
+                                    <p>Actualmente domino <b>HTML ,CSS ,Boostrap 5,Materialize, sass </b></p>
+                                </div>
+                        </div>
+                        <div class="accordion">
+                            <button type="button" class="accordion-button1"><h3>JS</h3></button>
+                                <div class="accordion-content">
+                                    <p>Utilizo la tecnología de Javascript para controlar los posibles eventos del usuario final, de la mano con tecnologías como Typescript</p>
+                                </div>
+                        </div>
+                        <div class="accordion">
+                            <button type="button" class="accordion-button1"><h3>PHP</h3></button>
+                                <div class="accordion-content">
+                                    <p>Muy Pronto estaré aprendiendo PHP</p>
+                                </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+
+</body>
+<script src="main.js"></script>
+</html>
